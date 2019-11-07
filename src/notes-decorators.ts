@@ -3,7 +3,7 @@ class Boat {
   color: string = 'red';
 
   @decorator
-  getFormattedColor(): string {
+  get formattedColor(): string {
     return `This boat color is ${this.color}`;
   }
 
